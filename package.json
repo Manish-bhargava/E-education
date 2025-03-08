@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon server/index.js",
-    "build":"npm install && npm install --prefix client && npm run build --prefix client",
-    "start":"nodemon server/index.js"
+    "build": "npm install && npm install --prefix client && npm run build --prefix client",
+    "start": "nodemon server/index.js"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +23,7 @@
     "mongoose": "^8.8.0",
     "multer": "^1.4.5-lts.1",
     "nodemon": "^3.1.7",
-    "stripe": "^17.3.1"
+    "stripe": "^17.3.1",
+    "tailwindcss": "^3.4.17"
   }
 }
